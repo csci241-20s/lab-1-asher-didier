@@ -1,0 +1,925 @@
+Script started on 2020-04-12 20:23:20-0700
+didiera@linux-07:~$ mkdir csci241
+didiera@linux-07:~$ d[Kcd csci241
+didiera@linux-07:~/csci241$ ls
+didiera@linux-07:~/csci241$ git clone ^V
+fatal: repository '?' does not exist
+didiera@linux-07:~/csci241$ git clone https:hi[K[Kgit[K[K[K//github.com/csci241-19w/[K[K[K[K20s/lab-1-asher -didier
+Cloning into 'lab-1-asher-didier'...
+remote: Enumerating objects: 14, done.[K
+remote: Counting objects:   7% (1/14)[Kremote: Counting objects:  14% (2/14)[Kremote: Counting objects:  21% (3/14)[Kremote: Counting objects:  28% (4/14)[Kremote: Counting objects:  35% (5/14)[Kremote: Counting objects:  42% (6/14)[Kremote: Counting objects:  50% (7/14)[Kremote: Counting objects:  57% (8/14)[Kremote: Counting objects:  64% (9/14)[Kremote: Counting objects:  71% (10/14)[Kremote: Counting objects:  78% (11/14)[Kremote: Counting objects:  85% (12/14)[Kremote: Counting objects:  92% (13/14)[Kremote: Counting objects: 100% (14/14)[Kremote: Counting objects: 100% (14/14), done.[K
+remote: Compressing objects:  12% (1/8)[Kremote: Compressing objects:  25% (2/8)[Kremote: Compressing objects:  37% (3/8)[Kremote: Compressing objects:  50% (4/8)[Kremote: Compressing objects:  62% (5/8)[Kremote: Compressing objects:  75% (6/8)[Kremote: Compressing objects:  87% (7/8)[Kremote: Compressing objects: 100% (8/8)[Kremote: Compressing objects: 100% (8/8), done.[K
+remote: Total 14 (delta 2), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:   7% (1/14)   Unpacking objects:  14% (2/14)   Unpacking objects:  21% (3/14)   Unpacking objects:  28% (4/14)   Unpacking objects:  35% (5/14)   Unpacking objects:  42% (6/14)   Unpacking objects:  50% (7/14)   Unpacking objects:  57% (8/14)   Unpacking objects:  64% (9/14)   Unpacking objects:  71% (10/14)   Unpacking objects:  78% (11/14)   Unpacking objects:  85% (12/14)   Unpacking objects:  92% (13/14)   Unpacking objects: 100% (14/14)   Unpacking objects: 100% (14/14), done.
+didiera@linux-07:~/csci241$ ls
+lab-1-asher-didier
+didiera@linux-07:~/csci241$ cd lanb[Kb-1-[K[K[K[K[Kb-1-asher-didier
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git config --global user.nbam[K[K[K[Kname "As her Didier"
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git config --global user.email di diera@wwu.edu
+didiera@linux-07:~/csci241/lab-1-asher-didier$ touch writeup.txt
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git add writeup.txt
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git commit -m "Added emoty writeu p"
+[master 6f203d2] Added emoty writeup
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 writeup.txt
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git push =[K[K
+Username for 'https://github.com': didiera       asher-didier
+Password for 'https://asher-didier@github.com': 
+Counting objects: 2, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  50% (1/2)   Writing objects: 100% (2/2)   Writing objects: 100% (2/2), 267 bytes | 267.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/csci241-20s/lab-1-asher-didier
+   fa83643..6f203d2  master -> master
+didiera@linux-07:~/csci241/lab-1-asher-didier$ emacs [K[K[K[K[K[Knana [K[Ko writeup.txt
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;33H(B[0;7m[ Reading File ](B[m[22;39H(B[0;7m 0 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                     writeup.txt                                [1;79H(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[3d[39;49m(B[m[?12l[?25h[?25l[1;71H(B[0;7mModified(B[m[3dA[?12l[?25h[?25ls[?12l[?25h[?25lh[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25l [?12l[?25h[?25lD[?12l[?25h[?25li[?12l[?25h[?25ld[?12l[?25h[?25li[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25l[22d(B[0;7mSave modified buffer?  (Answering "No" will DISCARD changes.)                   [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;63H[?12l[?25h[?25l[23d(B[0;7m^G(B[m Get Help[23;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[23;61H(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[24;61H(B[0;7m^T(B[m To Files[22d(B[0;7mFile Name to Write: writeup.txt                              (B[m[22;32H[?12l[?25h[?25l[K[1;79H[1;71H(B[0;7m        (B[m[22;33H(B[0;7m[ Wrote 1 line ](B[m[J[24;80H[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>didiera@linux-07:~/csci241/lab-1-asher-didier$ git add writeup.txt
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git commit -m "Added part 1 (name s) to writeup"
+[master d44727e] Added part 1 (names) to writeup
+ 1 file changed, 1 insertion(+)
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git push
+Username for 'https://github.com': didiera
+Password for 'https://didiera@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/csci241-20s/lab-1-asher-didier/'
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git push
+Username for 'https://github.com': asher-didier
+Password for 'https://asher-didier@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 278 bytes | 278.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/csci241-20s/lab-1-asher-didier
+   6f203d2..d44727e  master -> master
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+didiera@linux-07:~/csci241/lab-1-asher-didier$ nano writeup.txt
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;33H(B[0;7m[ Reading File ](B[m[22;39H(B[0;7m 1 line ](B[m[K[H(B[0;7m  GNU nano 2.9.3                     writeup.txt                                [1;79H(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[3d[39;49m(B[mAsher Didier[?12l[?25h[?25l[1;71H(B[0;7mModified(B[m[3daAsher Didiera[?12l[?25h[?25l[1P[?12l[?25h[?25lA[?12l[?25h[?25ls[?12l[?25h[?25lh[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25l [?12l[?25h[?25lD[?12l[?25h[?25li[?12l[?25h[?25ld[?12l[?25h[?25li[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25l[4d[?12l[?25h[?25lH[?12l[?25h[?25lo[?12l[?25h[?25lb[?12l[?25h[?25lb[?12l[?25h[?25ly[?12l[?25h[?25l:[?12l[?25h[?25l [?12l[?25h[?25lS[?12l[?25h[?25lw[?12l[?25h[?25li[?12l[?25h[?25lm[22d[K[4;12H[?12l[?25h[?25lm[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25l[22d(B[0;7mSave modified buffer?  (Answering "No" will DISCARD changes.)                   [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;63H[?12l[?25h[?25l[23d(B[0;7m^G(B[m Get Help[23;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[23;61H(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[24;61H(B[0;7m^T(B[m To Files[22d(B[0;7mFile Name to Write: writeup.txt                              (B[m[22;32H[?12l[?25h[?25l[K[1;79H[1;71H(B[0;7m        (B[m[22;32H(B[0;7m[ Wrote 2 lines ](B[m[J[24;80H[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>didiera@linux-07:~/csci241/lab-1-asher-didier$ git sat[K[Ktatus
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   writeup.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git add writeup.txt
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   writeup.txt[m
+
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git commit -m "Added hpbby l[K[K[K[K[K[Kobby line t o writeup"[K[Adidiera@linux-07:~/csci241/lab-1-asher-didier$ git commit -m "Added hobby line to writeup"
+[master 5a9e7cc] Added hobby line to writeup
+ 1 file changed, 1 insertion(+)
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+didiera@linux-07:~/csci241/lab-1-asher-didier$ gi[Kit push
+Username for 'https://github.com': asher-didier
+Password for 'https://asher-didier@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 290 bytes | 290.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/csci241-20s/lab-1-asher-didier
+   d44727e..5a9e7cc  master -> master
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+didiera@linux-07:~/csci241/lab-1-asher-didier$ touch username.txt
+didiera@linux-07:~/csci241/lab-1-asher-didier$ nano username.txt
+[?1049h[22;0;0t[1;36r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[34;63H(B[0;7m[ Reading File ](B[m[34;69H(B[0;7m 0 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                                                   username.txt                                                              [1;140H(B[m[35d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text  (B[0;7mM-](B[m To Bracket[36d(B[0;7m^X(B[m Exit[36;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text  (B[0;7mM-W(B[m WhereIs Next[34d[3d[39;49m(B[m[?12l[?25h[?25l[1;132H(B[0;7mModified(B[m[3dA[?12l[?25h[?25ls[?12l[?25h[?25lh[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25l [?12l[?25h[?25lD[?12l[?25h[?25li[?12l[?25h[?25ld[?12l[?25h[?25li[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25l,[?12l[?25h[?25ld[?12l[?25h[?25li[?12l[?25h[?25ld[?12l[?25h[?25li[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25la[?12l[?25h[?25l,[?12l[?25h[?25la[?12l[?25h[?25ls[?12l[?25h[?25lh[?12l[?25h[?25le[?12l[?25h[?25lr[34d[K[3;27H[?12l[?25h[?25l-[?12l[?25h[?25ld[?12l[?25h[?25li[?12l[?25h[?25ld[?12l[?25h[?25li[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25l[34d(B[0;7mSave modified buffer?  (Answering "No" will DISCARD changes.)                                                                                [35;1H Y(B[m Yes[K[36d(B[0;7m N(B[m No  [36;16H (B[0;7m^C(B[m Cancel[K[34;63H[?12l[?25h[?25l[35d(B[0;7m^G(B[m Get Help[35;36H(B[0;7mM-D(B[m DOS Format[35;71H(B[0;7mM-A(B[m Append[35;106H(B[0;7mM-B(B[m Backup File[36d(B[0;7m^C(B[m Cancel[17G         [36;36H(B[0;7mM-M(B[m Mac Format[36;71H(B[0;7mM-P(B[m Prepend[36;106H(B[0;7m^T(B[m To Files[34d(B[0;7mFile Name to Write: username.txt                             (B[m[34;33H[?12l[?25h[?25l[K[1;140H[1;132H(B[0;7m        (B[m[34;63H(B[0;7m[ Wrote 1 line ](B[m[J[36;141H[?12l[?25h[36;1H[?1049l[23;0;0t[?1l>didiera@linux-07:~/csci241/lab-1-asher-didier$ git commit -m  [K"Created amd[K[Knd edited username.txt file"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+	[31musername.txt[m
+
+nothing added to commit but untracked files present
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git add username.txt
+didiera@linux-07:~/csci241/lab-1-asher-didier$ c[Kgit commit -m "Created and A[Kedited usernae[Kme.txt file"
+[master a674d9a] Created and edited username.txt file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 username.txt
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git push
+Username for 'https://github.com': asher-didier
+Password for 'https://]asher-didier@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/csci241-20s/lab-1-asher-didier/'
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git push
+Username for 'https://github.com': asher-didier
+Password for 'https://asher-didier@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 310 bytes | 310.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/csci241-20s/lab-1-asher-didier
+   5a9e7cc..a674d9a  master -> master
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git a[K[K[K[K[Ktouch testfile.txt
+didiera@linux-07:~/csci241/lab-1-asher-didier$ gi[K[Knano testfile.txt
+[?1049h[22;0;0t[1;36r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[34;63H(B[0;7m[ Reading File ](B[m[34;69H(B[0;7m 0 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                                                   testfile.txt                                                              [1;140H(B[m[35d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text  (B[0;7mM-](B[m To Bracket[36d(B[0;7m^X(B[m Exit[36;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text  (B[0;7mM-W(B[m WhereIs Next[34d[3d[39;49m(B[m[?12l[?25h[?25l[1;132H(B[0;7mModified(B[m[3dT[?12l[?25h[?25le[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25l[34d(B[0;7mSave modified buffer?  (Answering "No" will DISCARD changes.)                                                                                [35;1H Y(B[m Yes[K[36d(B[0;7m N(B[m No  [36;16H (B[0;7m^C(B[m Cancel[K[34;63H[?12l[?25h[?25l[35d(B[0;7m^G(B[m Get Help[35;36H(B[0;7mM-D(B[m DOS Format[35;71H(B[0;7mM-A(B[m Append[35;106H(B[0;7mM-B(B[m Backup File[36d(B[0;7m^C(B[m Cancel[17G         [36;36H(B[0;7mM-M(B[m Mac Format[36;71H(B[0;7mM-P(B[m Prepend[36;106H(B[0;7m^T(B[m To Files[34d(B[0;7mFile Name to Write: testfile.txt                             (B[m[34;33H[?12l[?25h[?25l[K[1;140H[1;132H(B[0;7m        (B[m[34;63H(B[0;7m[ Wrote 1 line ](B[m[J[36;141H[?12l[?25h[36;1H[?1049l[23;0;0t[?1l>didiera@linux-07:~/csci241/lab-1-asher-didier$ git reset [K
+didiera@linux-07:~/csci241/lab-1-asher-didier$ ls
+build.gradle  settings.gradle  src  testfile.txt  username.txt	writeup.txt
+didiera@linux-07:~/csci241/lab-1-asher-didier$ nano tss[K[Kestfile.txt
+[?1049h[22;0;0t[1;36r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[34;63H(B[0;7m[ Reading File ](B[m[34;63H (B[0;7m[ Read 1 line ](B[m[H(B[0;7m  GNU nano 2.9.3                                                   testfile.txt                                                              [1;140H(B[m[35d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text  (B[0;7mM-](B[m To Bracket[36d(B[0;7m^X(B[m Exit[36;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text  (B[0;7mM-W(B[m WhereIs Next[34d[3d[39;49m(B[mTesting[?12l[?25h[?25l[34d[J[36;141H[?12l[?25h[36;1H[?1049l[23;0;0t[?1l>didiera@linux-07:~/csci241/lab-1-asher-didier$ git reset testfile.txt
+didiera@linux-07:~/csci241/lab-1-asher-didier$ ls
+build.gradle  settings.gradle  src  testfile.txt  username.txt	writeup.txt
+didiera@linux-07:~/csci241/lab-1-asher-didier$ nano testfile.txt
+[?1049h[22;0;0t[1;36r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[34;63H(B[0;7m[ Reading File ](B[m[34;63H (B[0;7m[ Read 1 line ](B[m[H(B[0;7m  GNU nano 2.9.3                                                   testfile.txt                                                              [1;140H(B[m[35d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text  (B[0;7mM-](B[m To Bracket[36d(B[0;7m^X(B[m Exit[36;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text  (B[0;7mM-W(B[m WhereIs Next[34d[3d[39;49m(B[mTesting[?12l[?25h[?25l[34d[J[36;141H[?12l[?25h[36;1H[?1049l[23;0;0t[?1l>didiera@linux-07:~/csci241/lab-1-asher-didier$ git rm testfile.txt
+fatal: pathspec 'testfile.txt' did not match any files
+didiera@linux-07:~/csci241/lab-1-asher-didier$ ls
+build.gradle  settings.gradle  src  testfile.txt  username.txt	writeup.txt
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git rm testfile.txt
+fatal: pathspec 'testfile.txt' did not match any files
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git add testfile.txt
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git rm testfile.txt
+error: the following file has changes staged in the index:
+    testfile.txt
+(use --cached to keep the file, or -f to force removal)
+didiera@linux-07:~/csci241/lab-1-asher-didier$ -f
+-f: command not found
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git rm -f testfile.txt
+rm 'testfile.txt'
+didiera@linux-07:~/csci241/lab-1-asher-didier$ ls
+build.gradle  settings.gradle  src  username.txt  writeup.txt
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git [K[K[K[Ktouch testfile.txt
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git mc [K[Kv testfile.txt
+usage: git mv [<options>] <source>... <destination>
+
+    -v, --verbose         be verbose
+    -n, --dry-run         dry run
+    -f, --force           force move/rename even if target exists
+    -k                    skip move/rename errors
+
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git mv testfile.txt lab-1-asher-didier
+fatal: not under version control, source=testfile.txt, destination=lab-1-asher-didier
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git mv testfile.txt ~/csci241/lab-1-asher-didier
+fatal: can not move directory into itself, source=testfile.txt, destination=testfile.txt
+didiera@linux-07:~/csci241/lab-1-asher-didier$ mkdir testFolder[K[K[K[K[K[Kfp;der[K[K[K[K[Kolder
+didiera@linux-07:~/csci241/lab-1-asher-didier$ ls
+build.gradle  settings.gradle  src  testfile.txt  testfolder  username.txt  writeup.txt
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git mc [K[Kv testfile.txt ~/csci241/lab-1-asher-didier/testfolder
+fatal: not under version control, source=testfile.txt, destination=testfolder/testfile.txt
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git mv f[Ktestfile.txt ~/csci241/lab-1-asher-didier/testfoler[K[Kder$[K
+fatal: not under version control, source=testfile.txt, destination=testfolder/testfile.txt
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git add testfolder
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git mv testfile.txt ~/csci241/lab-1-asher-didier/testfolder
+fatal: not under version control, source=testfile.txt, destination=testfolder/testfile.txt
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git mv testfile.txt testfolder/testfile.txt
+fatal: not under version control, source=testfile.txt, destination=testfolder/testfile.txt
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git mc[Kv testfile.txt ~?[K/csci23[K3[K41/lab-a-asher-didier[K[K[K[K[K[K[K[K[K[K[K[K[K[K1-asher-didier/testfolder/testfile.txt
+fatal: not under version control, source=testfile.txt, destination=testfolder/testfile.txt
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git mv testfile.txt testfolder/testfile.txt
+fatal: not under version control, source=testfile.txt, destination=testfolder/testfile.txt
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git add testfile.txt
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git mv testfile.txt testfolder/testfile.txt
+didiera@linux-07:~/csci241/lab-1-asher-didier$ ls
+build.gradle  settings.gradle  src  testfolder	username.txt  writeup.txt
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git rm testfolder
+fatal: not removing 'testfolder' recursively without -r
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git remove -r[K[K[K[K[K[K[K[Km -r testfolder
+error: the following file has changes staged in the index:
+    testfolder/testfile.txt
+(use --cached to keep the file, or -f to force removal)
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git rm -r -t [K[Kf testfolder
+rm 'testfolder/testfile.txt'
+didiera@linux-07:~/csci241/lab-1-asher-didier$ ls
+build.gradle  settings.gradle  src  username.txt  writeup.txt
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git b;a[K[K;[Klame
+usage: git blame [<options>] [<rev-opts>] [<rev>] [--] <file>
+
+    <rev-opts> are documented in git-rev-list(1)
+
+    --incremental         Show blame entries as we find them, incrementally
+    -b                    Show blank SHA-1 for boundary commits (Default: off)
+    --root                Do not treat root commits as boundaries (Default: off)
+    --show-stats          Show work cost statistics
+    --progress            Force progress reporting
+    --score-debug         Show output score for blame entries
+    -f, --show-name       Show original filename (Default: auto)
+    -n, --show-number     Show original linenumber (Default: off)
+    -p, --porcelain       Show in a format designed for machine consumption
+    --line-porcelain      Show porcelain format with per-line commit information
+    -c                    Use the same output mode as git-annotate (Default: off)
+    -t                    Show raw timestamp (Default: off)
+    -l                    Show long commit SHA1 (Default: off)
+    -s                    Suppress author name and timestamp (Default: off)
+    -e, --show-email      Show author email instead of name (Default: off)
+    -w                    Ignore whitespace differences
+    --indent-heuristic    Use an experimental heuristic to improve diffs
+    --minimal             Spend extra cycles to find better match
+    -S <file>             Use revisions from <file> instead of calling git-rev-list
+    --contents <file>     Use <file>'s contents as the final image
+    -C[<score>]           Find line copies within and across files
+    -M[<score>]           Find line movements within and across files
+    -L <n,m>              Process only line range n,m, counting from 1
+    --abbrev[=<n>]        use <n> digits to display SHA-1s
+
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git blame username.txt
+[?1h=a674d9a7 (Asher Didier 2020-04-12 20:56:57 -0700 1) Asher Didier,didiera,asher-didier[m
+[K[?1l>didiera@linux-07:~/csci241/lab-1-asher-didier$ git log
+[?1h=[33mcommit a674d9a731c7198dc007ca87be1dc359dfc472f0[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Asher Didier <didiera@wwu.edu>[m
+Date:   Sun Apr 12 20:56:57 2020 -0700[m
+[m
+    Created and edited username.txt file[m
+[m
+[33mcommit 5a9e7cc3e443546749934aef009e825031f1c01d[m[m
+Author: Asher Didier <didiera@wwu.edu>[m
+Date:   Sun Apr 12 20:52:26 2020 -0700[m
+[m
+    Added hobby line to writeup[m
+[m
+[33mcommit d44727edbefc16b78ca3beeb863829dcfb25a9d8[m[m
+Author: Asher Didier <didiera@wwu.edu>[m
+Date:   Sun Apr 12 20:49:16 2020 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit 6f203d290021ce2cefdd5e332c0e75d6311eee93[m[m
+Author: Asher Didier <didiera@wwu.edu>[m
+Date:   Sun Apr 12 20:37:37 2020 -0700[m
+[m
+    Added emoty writeup[m
+[m
+[33mcommit fa836431dfb62cdbb2e904ebed55ba51ba834cd1[m[m
+Author: swehrwein <swehrwein@gmail.com>[m
+Date:   Sun Apr 12 20:30:42 2020 -0700[m
+[m
+    Setting up GitHub Classroom Feedback[m
+[m
+[33mcommit e47420faff42cdd4355deb1ea226a0d84449c127[m[33m ([m[1;31morigin/feedback[m[33m)[m[m
+Author: swehrwein <swehrwein@gmail.com>[m
+Date:   Sun Apr 12 20:30:41 2020 -0700[m
+[m
+    Setting up GitHub Classroom Feedback[m
+:[K[K[K:[K[K[m
+[33mcommit e4d9fdb325c8f5692bd8c4575467e1a40c3e7f88[m[m
+Author: swehrwein <swehrwein@gmail.com>[m
+Date:   Sun Apr 12 20:30:39 2020 -0700[m
+[m
+    Initial commit[m
+[7m(END)[27m[K[K[K[7m(END)[27m[K[K-[Klog file: [K[7m(END)[27m[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K-[Klog file: [Kss[K[K^X^X[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[33m[m[1;31m[m[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[33m[m[1;31m[m[33m[m[m
+[m
+[m
+[m
+[m
+[m
+[33m[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K-[Klog file: [Ktt[Koo[Kuu[Kcc[Khh[K  [Ktt[Kee[Kss[Ktt[Kff[Kii[Kll[Kee[K..[Ktt[Kxx[Ktt[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[?1l>didiera@linux-07:~/csci241/lab-1-asher-didier$ git diff
+[?1h=[K[?1l>didiera@linux-07:~/csci241/lab-1-asher-didier$ git diff t[Kwre[Kiteup.txt
+[?1h=[K[?1l>didiera@linux-07:~/csci241/lab-1-asher-didier$ ls
+ build.gradle   settings.gradle   src  'touch testfile.txt'   username.txt   writeup.txt
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git rm -f 'touch testfile.txt'
+fatal: pathspec 'touch testfile.txt' did not match any files
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git rm -f touch [K[K[K[K[K[K"touch testfile.txt"
+fatal: pathspec 'touch testfile.txt' did not match any files
+didiera@linux-07:~/csci241/lab-1-asher-didier$ giot[K[Kt rm -f "'touch testfile.txt'"
+fatal: pathspec ''touch testfile.txt'' did not match any files
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git rm 0[Kf[K-f touch to[Kestfile.txt
+fatal: pathspec 'touch' did not match any files
+didiera@linux-07:~/csci241/lab-1-asher-didier$ ls
+ build.gradle   settings.gradle   src  'touch testfile.txt'   username.txt   writeup.txt
+didiera@linux-07:~/csci241/lab-1-asher-didier$ rm "'touch testfile.txt'"
+rm: cannot remove "'touch testfile.txt'": No such file or directory
+didiera@linux-07:~/csci241/lab-1-asher-didier$ rm \'touch testfile.txt\'
+rm: cannot remove "'touch": No such file or directory
+rm: cannot remove "testfile.txt'": No such file or directory
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git rm '[K\'touy[Kch testfile.txt\'
+fatal: pathspec ''touch' did not match any files
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git rm "\' touch testfile.txt\"[K'"
+fatal: pathspec '\' touch testfile.txt\'' did not match any files
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git rm "\'touch testfile.txt\'"
+fatal: pathspec '\'touch testfile.txt\'' did not match any files
+didiera@linux-07:~/csci241/lab-1-asher-didier$ ls
+ build.gradle   settings.gradle   src  'touch testfile.txt'   username.txt   writeup.txt
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git rm 
+usage: git rm [<options>] [--] <file>...
+
+    -n, --dry-run         dry run
+    -q, --quiet           do not list removed files
+    --cached              only remove from the index
+    -f, --force           override the up-to-date check
+    -r                    allow recursive removal
+    --ignore-unmatch      exit with a zero status even if nothing matched
+
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git rm "\'touch testfile.txt\'"
+fatal: pathspec '\'touch testfile.txt\'' did not match any files
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git[K[K[Krm "'[K/[K\'touch testfile.txt\'"
+rm: cannot remove '\'\''touch testfile.txt\'\''': No such file or directory
+didiera@linux-07:~/csci241/lab-1-asher-didier$ rm "'touch testfile.txt"
+rm: cannot remove "'touch testfile.txt": No such file or directory
+didiera@linux-07:~/csci241/lab-1-asher-didier$ rm "'touch testfile.txt'"
+rm: cannot remove "'touch testfile.txt'": No such file or directory
+didiera@linux-07:~/csci241/lab-1-asher-didier$ ls
+ build.gradle   settings.gradle   src  'touch testfile.txt'   username.txt   writeup.txt
+didiera@linux-07:~/csci241/lab-1-asher-didier$ remove [K[K[K[K[K[Km \'touch testfile.txt\'
+rm: cannot remove "'touch": No such file or directory
+rm: cannot remove "testfile.txt'": No such file or directory
+didiera@linux-07:~/csci241/lab-1-asher-didier$ rm "\'touch testfile.txt\'"
+rm: cannot remove '\'\''touch testfile.txt\'\''': No such file or directory
+didiera@linux-07:~/csci241/lab-1-asher-didier$ rm "'touch [K file[K[K[K[Ktestfile.txt'"
+rm: cannot remove "'touch testfile.txt'": No such file or directory
+didiera@linux-07:~/csci241/lab-1-asher-didier$ rm "touch[K[K[K[K[K'top[K=[Kuchfile[K[K[K[K filename[K[K[K[K[K[K[K[K[Ktestfile[K[K[K[K[K[K[K[K testfile.txt';#"
+rm: cannot remove ''\''touch testfile.txt'\'';#': No such file or directory
+didiera@linux-07:~/csci241/lab-1-asher-didier$ rm \'touch file[K[K[K[Ktestfile.txt'"[K[K\'
+rm: cannot remove "'touch": No such file or directory
+rm: cannot remove "testfile.txt'": No such file or directory
+didiera@linux-07:~/csci241/lab-1-asher-didier$ rm -i "'touch [K[K[K[K[K[Ktouch testfile.txt'"
+rm: cannot remove "'touch testfile.txt'": No such file or directory
+didiera@linux-07:~/csci241/lab-1-asher-didier$ ls
+ build.gradle   settings.gradle   src  'touch testfile.txt'   username.txt   writeup.txt
+didiera@linux-07:~/csci241/lab-1-asher-didier$ evas[K[K[K[Kgit commit ==[K[K[K[K[K[K[K[K[Kcheckot[Kut -b question3
+Switched to a new branch 'question3'
+didiera@linux-07:~/csci241/lab-1-asher-didier$ nano writeup.txt
+[?1049h[22;0;0t[1;36r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[34;63H(B[0;7m[ Reading File ](B[m[34;69H(B[0;7m 2 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                                                    writeup.txt                                                              [1;140H(B[m[35d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text  (B[0;7mM-](B[m To Bracket[36d(B[0;7m^X(B[m Exit[36;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text  (B[0;7mM-W(B[m WhereIs Next[34d[3d[39;49m(B[mAsher Didier[4dHobby: Swimming[A[?12l[?25h[?25l[4d[?12l[?25h[?25lH[?12l[?25h[?25lo[?12l[?25h[?25lb[?12l[?25h[?25lb[?12l[?25h[?25ly[?12l[?25h[?25l:[?12l[?25h[?25l [?12l[?25h[?25lS[?12l[?25h[?25lw[?12l[?25h[?25li[?12l[?25h[?25lm[?12l[?25h[?25lm[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25l[5d[?12l[?25h[?25l[1;132H(B[0;7mModified(B[m[5dF[?12l[?25h[?25la[?12l[?25h[?25lv[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25li[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25l[34d[K[5;10H[?12l[?25h[?25lS[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25l:[?12l[?25h[?25l [?12l[?25h[?25lW[?12l[?25h[?25lh[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25l [?12l[?25h[?25lD[?12l[?25h[?25lo[?12l[?25h[?25lv[?12l[?25h[?25le[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25lC[?12l[?25h[?25lr[?12l[?25h[?25ly[?12l[?25h[?25l[34d(B[0;7mSave modified buffer?  (Answering "No" will DISCARD changes.)                                                                                [35;1H Y(B[m Yes[K[36d(B[0;7m N(B[m No  [36;16H (B[0;7m^C(B[m Cancel[K[34;63H[?12l[?25h[?25l[35d(B[0;7m^G(B[m Get Help[35;36H(B[0;7mM-D(B[m DOS Format[35;71H(B[0;7mM-A(B[m Append[35;106H(B[0;7mM-B(B[m Backup File[36d(B[0;7m^C(B[m Cancel[17G         [36;36H(B[0;7mM-M(B[m Mac Format[36;71H(B[0;7mM-P(B[m Prepend[36;106H(B[0;7m^T(B[m To Files[34d(B[0;7mFile Name to Write: writeup.txt                              (B[m[34;32H[?12l[?25h[?25l[K[1;140H[1;132H(B[0;7m        (B[m[34;63H(B[0;7m[ Wrote 3 lines ](B[m[J[36;141H[?12l[?25h[36;1H[?1049l[23;0;0t[?1l>didiera@linux-07:~/csci241/lab-1-asher-didier$ git add writeup.txt
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git commit -a -a[Km "Created new brank[Kch"
+[question3 18d272d] Created new branch
+ 1 file changed, 1 insertion(+)
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git merge question3
+Updating a674d9a..18d272d
+Fast-forward
+ writeup.txt | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git branch -d question3
+Deleted branch question3 (was 18d272d).
+didiera@linux-07:~/csci241/lab-1-asher-didier$ cde [K[K src/main/jaba[K[Kva/lab-1[K[K1/
+didiera@linux-07:~/csci241/lab-1-asher-didier/src/main/java/lab1$ gradle build
+
+Welcome to Gradle 6.1!
+
+Here are the highlights of this release:
+ - Dependency cache is relocatable
+ - Configurable compilation order between Groovy, Java & Scala
+ - New sample projects in Gradle's documentation
+
+For more details see https://docs.gradle.org/6.1/release-notes.html
+
+Starting a Gradle Daemon (subsequent builds will be faster)
+
+
+[2A[1B[1m> Starting Daemon[m[17D[1B[1A> IDLE[0K[6D[1B[2A[1m<[0;1m-------------> 0% INITIALIZING [23ms][m[38D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [123ms][m[39D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;1m-------------> 0% INITIALIZING [223ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [323ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [423ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [523ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [623ms][m[39D[1B[1m> Evaluating settings > Compiling /home/didiera/csci241/lab-1-asher-didier/settings.gradle into local compilation cache > Compiling settings[m[140D[1B[2A[1m<[0;1m-------------> 0% INITIALIZING [723ms][m[39D[1B[1m> Evaluating settings[m[0K[21D[1B[2A[1m<[0;1m-------------> 0% INITIALIZING [823ms][m[39D[1B[1m> Evaluating settings > Compiling /home/didiera/csci241/lab-1-asher-didier/settings.gradle into local compilation cache > Compiling settings[m[140D[1B[2A[1m<[0;1m-------------> 0% INITIALIZING [923ms][m[39D[1B[1m> Evaluating settings[m[0K[21D[1B[2A[0K
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Project directory '/home/didiera/csci241/lab-1-asher-didier/src/main/java/lab1' is not part of the build defined by settings file '/home/didiera/csci241/lab-1-asher-didier/settings.gradle'. If this is an unrelated build, it must have its own settings file.
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 2s
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hdidiera@linux-07:~/csci241/lab-1-asher-didier/src/main/java/lab1$ grab[Kdle build Hello[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+gradle	Hello.java
+didiera@linux-07:~/csci241/lab-1-asher-didier/src/main/java/lab1$ gradle build Hello.java
+
+
+[2A[1m<[0;1m-------------> 0% INITIALIZING [8ms][m[37D[1B[1m> Evaluating settings[m[21D[1B[2A[0K
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Project directory '/home/didiera/csci241/lab-1-asher-didier/src/main/java/lab1' is not part of the build defined by settings file '/home/didiera/csci241/lab-1-asher-didier/settings.gradle'. If this is an unrelated build, it must have its own settings file.
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 523ms
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> Evaluating settings[m[21D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hdidiera@linux-07:~/csci241/lab-1-asher-didier/src/main/java/lab1$ gradle run Hello.J[Kjava
+
+
+[2A[1m<[0;1m-------------> 0% INITIALIZING [9ms][m[37D[1B[1m> Evaluating settings[m[21D[1B[2A[0K
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Project directory '/home/didiera/csci241/lab-1-asher-didier/src/main/java/lab1' is not part of the build defined by settings file '/home/didiera/csci241/lab-1-asher-didier/settings.gradle'. If this is an unrelated build, it must have its own settings file.
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 517ms
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> Evaluating settings[m[21D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hdidiera@linux-07:~/csci241/lab-1-asher-didier/src/main/java/lab1$ javac Hello.java
+didiera@linux-07:~/csci241/lab-1-asher-didier/src/main/java/lab1$ gradle build Hello.java
+
+
+[2A[1m<[0;1m-------------> 0% INITIALIZING [7ms][m[37D[1B[1m> Evaluating settings[m[21D[1B[2A[0K
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Project directory '/home/didiera/csci241/lab-1-asher-didier/src/main/java/lab1' is not part of the build defined by settings file '/home/didiera/csci241/lab-1-asher-didier/settings.gradle'. If this is an unrelated build, it must have its own settings file.
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 531ms
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> Evaluating settings[m[21D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hdidiera@linux-07:~/csci241/lab-1-asher-didier/src/main/java/lab1$ cd ~/csci241/lab-1-asher-didier
+didiera@linux-07:~/csci241/lab-1-asher-didier$ gradle bui;ld[K[K[Kld
+
+
+[2A[1m<[0;1m-------------> 0% INITIALIZING [10ms][m[38D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;1m-------------> 0% CONFIGURING [110ms][m[38D[1B[1m> Loading projects[m[0K[18D[1B[2A[1m<[0;1m-------------> 0% CONFIGURING [210ms][m[38D[1B[1m> root project > Compiling /home/didiera/csci241/lab-1-asher-didier/build.gradle into local compilation cache > Compiling build file '/home/[m[140D[1B[2A[1m<[0;1m-------------> 0% CONFIGURING [310ms][m[38D[1B[1m> root project[m[0K[14D[1B[2A[1m<[0;1m-------------> 0% CONFIGURING [410ms][m[38D[2B[2A[1m<[0;1m-------------> 0% CONFIGURING [510ms][m[38D[2B[2A[1m<[0;1m-------------> 0% CONFIGURING [610ms][m[38D[2B[2A[1m<[0;1m-------------> 0% CONFIGURING [710ms][m[38D[2B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [810ms][m[40D[1B> IDLE[0K[6D[1B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [910ms][m[40D[2B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [1s][m[0K[37D[2B[2A[1m<[0;1m-------------> 0% EXECUTING [1s][m[0K[33D[1B[1m> :compileJava[m[14D[1B[1A[1m> :compileJava > Resolve dependencies of :compileClasspath[m[58D[1B[1A[1m> :compileJava > Resolve dependencies of :compileClasspath > guava-26.0-jre.pom[m[79D[1B[1A[1m> :compileJava > Resolve dependencies of :compileClasspath[m[0K[58D[1B[2A[1m<[0;1m-------------> 0% EXECUTING [2s][m[33D[2B
+
+
+[4A[1m> :compileJava > Resolve dependencies of :compileClasspath > error_prone_annotations-2.1.3.pom[m[94D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath > j2objc-annotations-1.1.pom[m[87D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath > animal-sniffer-annotations-1.14.pom[m[96D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath > checker-qual-2.5.2.pom[m[83D[1B
+[6A[33C[0K[33D[1B> IDLE[0K[0K[6D[1B[87C[0K[87D[2B> IDLE[0K[6D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath > jsr305-3.0.2.pom[m[77D[1B[4A> IDLE[0K[6D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath > codehaus-parent-4.pom[m[0K[82D[2B> IDLE[0K[6D[1B
+[6A[1m> :compileJava > Resolve files of :compileClasspath > animal-sniffer-annotations-1.14.jar[m[89D[1B[1m> :compileJava > Resolve files of :compileClasspath > error_prone_annotations-2.1.3.jar[m[87D[1B[1m> :compileJava > Resolve files of :compileClasspath > jsr305-3.0.2.jar[m[0K[70D[1B[1m> :compileJava > Resolve files of :compileClasspath > j2objc-annotations-1.1.jar[m[80D[1B[1m> :compileJava > Resolve files of :compileClasspath > checker-qual-2.5.2.jar[m[76D[1B[1m> :compileJava > Resolve files of :compileClasspath > guava-26.0-jre.jar[m[72D[1B[6A> IDLE[0K[6D[1B> IDLE[0K[6D[1B> IDLE[0K[6D[1B> IDLE[0K[6D[1B> IDLE[0K[6D[1B[1m> :compileJava > Resolve files of :compileClasspath > guava-26.0-jre.jar > 174 KB/2.61 MB downloaded[m[100D[1B[1A[1m> :compileJava > Resolve files of :compileClasspath > guava-26.0-jre.jar > 2.08 MB/2.61 MB downloaded[m[101D[1B[1A[1m> :compileJava > Resolve files of :compileClasspath[m[0K[51D[1B[1A[1m> :compileJava[m[0K[14D[1B[7A[1m<[0;1m-------------> 0% EXECUTING [3s][m[33D[7B[7A[1m<[0;1m-------------> 0% EXECUTING [4s][m[33D[7B[7A[1m<[0;1m-------------> 0% EXECUTING [5s][m[33D[7B[7A[1m<[0;1m-------------> 0% EXECUTING [6s][m[33D[7B[7A[1m<[0;32;1m===[0;39;1m----------> 28% EXECUTING [6s][m[34D[6B[1m> :startScripts[m[15D[1B[7A[1m<[0;32;1m=====[0;39;1m--------> 42% EXECUTING [6s][m[34D[6B[1m> :distZip[m[0K[10D[1B[7A[1m<[0;32;1m=====[0;39;1m--------> 42% EXECUTING [7s][m[34D[7B[7A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 7s
+5 actionable tasks: 5 executed
+[4B[0K
+[0K
+[0K
+[7A[1m<[0;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B> IDLE[6D[1B> IDLE[0K[6D[1B> IDLE[6D[1B> IDLE[6D[1B> IDLE[6D[1B[7A[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[6A[0m[?12l[?25hdidiera@linux-07:~/csci241/lab-1-asher-didier$ gradle run
+
+
+[2A[1m<[0;1m-------------> 0% EXECUTING [111ms][m[36D[1B[1m> :compileJava[m[14D[1B[2A[0K
+[1m> Task :run[m[0K
+Hello, world!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 665ms
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> :compileJava[m[14D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hdidiera@linux-07:~/csci241/lab-1-asher-didier$ cd src/main/java/lab1
+didiera@linux-07:~/csci241/lab-1-asher-didier/src/main/java/lab1$ nano jav[K[K[KHello.java
+[?1049h[22;0;0t[1;36r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[34;63H(B[0;7m[ Reading File ](B[m[34;69H(B[0;7m 7 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                                                    Hello.java                                                               [1;140H(B[m[35d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text  (B[0;7mM-](B[m To Bracket[36d(B[0;7m^X(B[m Exit[36;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text  (B[0;7mM-W(B[m WhereIs Next[34d[3d[39;49m[36mpackage[39m(B[m lab1;[5d[36mpublic[39m(B[m [36mclass[39m(B[m Hello {[6;3H[36mpublic[39m(B[m [36mstatic[39m(B[m [32mvoid[39m(B[m main(String[] args) {[7;5HSystem.out.println([31m"Hello, world!"[39m(B[m);[8;3H}[9d}[3d[?12l[?25h[?25l[1;132H(B[0;7mModified(B[m7[2;33r8[2dM[1;36r[4;1H[?12l[?25h[?25l[2;33r[33;1H
+[1;36r[3;1H[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l7[7;33r8M[1;36r[7;1H[42m   [8d[49m(B[m[3P[?12l[?25h[?25l[8;9H[1K System.out.println([31m"Hello, world!"[39m(B[m);[8;9H[?12l[?25h[?25l[7;4H[?12l[?25h[?25l[8G[42m[1K [49m(B[m[?12l[?25h[?25l[1K S[?12l[?25h[?25ly[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[42m[1K [49m(B[m [?12l[?25h[?25l[1K S[?12l[?25h[?25ly[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25le[34d[K[7;14H[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[42m[1K [49m(B[m [?12l[?25h[?25l[4G[K[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l[7;34r[34;1H
+[1;36r[6;43H[?12l[?25h[?25l7[7;34r8[7dM[1;36r[7;1H[?12l[?25h[?25l[8G[42m[1K [49m(B[m[?12l[?25h[?25l[1K S[?12l[?25h[?25ly[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25lm[?12l[?25h[?25l.[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25lt[?12l[?25h[?25l.[?12l[?25h[?25lp[?12l[?25h[?25lr[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25ll[?12l[?25h[?25ln[?12l[?25h[?25l([?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[42m[1K [49m(B[m [?12l[?25h[?25l[1K f[?12l[?25h[?25lo[?12l[?25h[?25l[31mfor[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l ([?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25l[32mint[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l i[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25lx[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l =[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l 0[?12l[?25h[?25l;[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l i[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25lx[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l <[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l s[?12l[?25h[?25l[42m [49m(B[m[K[?12l[?25h[?25l a[?12l[?25h[?25lr[?12l[?25h[?25lg[?12l[?25h[?25ls[?12l[?25h[?25l.[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [?12l[?25h[?25l;[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l i[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25lx[?12l[?25h[?25l+[?12l[?25h[?25l+[?12l[?25h[?25l)[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l {[?12l[?25h[?25l7[8;34r8[8dM[1;36r[8;1H[?12l[?25h[?25l[8G[42m[1K [49m(B[m[?12l[?25h[?25l[16G[42m[1K [49m(B[m[?12l[?25h[?25l[1K S[?12l[?25h[?25ly[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25lm[?12l[?25h[?25l.[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25lt[?12l[?25h[?25l.[?12l[?25h[?25lp[?12l[?25h[?25lr[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25l([?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25lg[?12l[?25h[?25ls[?12l[?25h[?25l[[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25lx[?12l[?25h[?25l][?12l[?25h[?25l)[?12l[?25h[?25l;[?12l[?25h[?25l7[9;34r8[9dM[1;36r[9;1H[?12l[?25h[?25l[8G[42m[1K [49m(B[m[?12l[?25h[?25l[1K }[?12l[?25h[?25l[10d[?12l[?25h[?25l[?12l[?25h[?25l[8P[?12l[?25h[?25l[10;9H[1K System.out.println([31m"Hello, world!"[39m(B[m);[10;9H[?12l[?25h[?25l [?12l[?25h[?25l[1P[10;9H[?12l[?25h[?25l[34d(B[0;7mSave modified buffer?  (Answering "No" will DISCARD changes.)                                                                                [35;1H Y(B[m Yes[K[36d(B[0;7m N(B[m No  [36;16H (B[0;7m^C(B[m Cancel[K[34;63H[?12l[?25h[?25l[35d(B[0;7m^G(B[m Get Help[35;36H(B[0;7mM-D(B[m DOS Format[35;71H(B[0;7mM-A(B[m Append[35;106H(B[0;7mM-B(B[m Backup File[36d(B[0;7m^C(B[m Cancel[17G         [36;36H(B[0;7mM-M(B[m Mac Format[36;71H(B[0;7mM-P(B[m Prepend[36;106H(B[0;7m^T(B[m To Files[34d(B[0;7mFile Name to Write: Hello.java                               (B[m[34;31H[?12l[?25h[?25l[K[1;140H[1;132H(B[0;7m        (B[m[34;62H(B[0;7m[ Wrote 10 lines ](B[m[J[36;141H[?12l[?25h[36;1H[?1049l[23;0;0t[?1l>didiera@linux-07:~/csci241/lab-1-asher-didier/src/main/java/lab1$ gradle run[K[K[Kbuild
+
+
+[2A[1m<[0;1m-------------> 0% INITIALIZING [15ms][m[38D[1B[1m> Evaluating settings[m[21D[1B[2A[0K
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Project directory '/home/didiera/csci241/lab-1-asher-didier/src/main/java/lab1' is not part of the build defined by settings file '/home/didiera/csci241/lab-1-asher-didier/settings.gradle'. If this is an unrelated build, it must have its own settings file.
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 505ms
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> Evaluating settings[m[21D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hdidiera@linux-07:~/csci241/lab-1-asher-didier/src/main/java/lab1$ cd ~/csci241 [K/lab-a[K1-asher-didier
+didiera@linux-07:~/csci241/lab-1-asher-didier$ gradle buiuld[K[K[Kld
+
+
+[2A[1m<[0;1m-------------> 0% INITIALIZING [4ms][m[37D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;1m-------------> 0% EXECUTING [104ms][m[0K[36D[1B[1m> :compileJava[m[0K[14D[1B[2A[1m<[0;1m-------------> 0% EXECUTING [204ms][m[36D[2B[2A[1m<[0;32;1m====[0;39;1m---------> 35% EXECUTING [304ms][m[37D[1B[1m> :distTar[m[0K[10D[1B[2A[1m<[0;32;1m=====[0;39;1m--------> 42% EXECUTING [404ms][m[37D[1B[1m> :distZip[m[10D[1B[2A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 977ms
+5 actionable tasks: 4 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hdidiera@linux-07:~/csci241/lab-1-asher-didier$ gradle run
+
+
+[2A[1m<[0;1m-------------> 0% INITIALIZING [9ms][m[37D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [109ms][m[37D[1B[1m> :run[m[0K[6D[1B[2A[0K
+[1m> Task :run[m
+Hello, world!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 647ms
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hdidiera@linux-07:~/csci241/lab-1-asher-didier$ gradel [K[K[Kle run --args="These are test ar[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kyour args here"
+
+
+[2A[1m<[0;1m-------------> 0% INITIALIZING [16ms][m[38D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [116ms][m[0K[37D[1B[1m> :run[m[0K[6D[1B[2A[0K
+[1m> Task :run[m
+yourargshereHello, world!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 636ms
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hdidiera@linux-07:~/csci241/lab-1-asher-didier$ nano Hello.java
+[?1049h[22;0;0t[1;36r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[34;65H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 2.9.3                                                    Hello.java                                                               [1;140H(B[m[35d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text  (B[0;7mM-](B[m To Bracket[36d(B[0;7m^X(B[m Exit[36;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text  (B[0;7mM-W(B[m WhereIs Next[34d[3d[39;49m(B[m[?12l[?25h[?25l[34d[J[36;141H[?12l[?25h[36;1H[?1049l[23;0;0t[?1l>didiera@linux-07:~/csci241/lab-1-asher-didier$ nano src/main/java/lab1/h[KHello.java
+[?1049h[22;0;0t[1;36r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[34;63H(B[0;7m[ Reading File ](B[m[34;69H(B[0;7m 10 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                                           src/main/java/lab1/Hello.java                                                     [1;140H(B[m[35d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text  (B[0;7mM-](B[m To Bracket[36d(B[0;7m^X(B[m Exit[36;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text  (B[0;7mM-W(B[m WhereIs Next[34d[3d[39;49m[36mpackage[39m(B[m lab1;[5d[36mpublic[39m(B[m [36mclass[39m(B[m Hello {[6;3H[36mpublic[39m(B[m [36mstatic[39m(B[m [32mvoid[39m(B[m main(String[] args) {[7;9H[31mfor[39m(B[m ([32mint[39m(B[m index = 0; index < args.length; index++) {[8;17HSystem.out.print(args[index]);[9;9H}[10dSystem.out.println([31m"Hello, world!"[39m(B[m);[11;3H}[12d}[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[C[?12l[?25h[?25l[7d[?12l[?25h[?25l[7;9H[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l [?12l[?25h[?25l([?12l[?25h[?25l[8;9H[?12l[?25h[?25l[8;17H[?12l[?25h[?25lS[?12l[?25h[?25ly[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25lm[?12l[?25h[?25l.[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25lt[?12l[?25h[?25l[34d[K[8;28H[?12l[?25h[?25lp[?12l[?25h[?25lr[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25l([?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25lg[?12l[?25h[?25ls[?12l[?25h[?25l[[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25lx[?12l[?25h[?25l][?12l[?25h[?25l[35;16H[32X[35;48H(B[0;7m^X(B[m Execute Command[29X[35;95H(B[0;7m^T(B[m To Files[K[36;2H(B[0;7mC(B[m Cancel[16G[32X[36;48H(B[0;7mM-F(B[m New Buffer[K[34d(B[0;7mFile to insert [from ./]:                                                                                                                    [34;1H(B[m[34;27H[?12l[?25h[?25l[34;64H[1K (B[0;7m[ Cancelled ](B[m[K[35;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo       (B[0;7mM-A(B[m Mark Text  (B[0;7mM-](B[m To Bracket[36;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text  (B[0;7mM-W(B[m WhereIs Next[34d[8;45H[?12l[?25h[?25l[1;132H(B[0;7mModified(B[m[8;45H");[?12l[?25h[?25l);[K[?12l[?25h[?25l );[?12l[?25h[?25l+);[?12l[?25h[?25l );[?12l[?25h[?25l");[?12l[?25h[?25l );[?12l[?25h[?25l[31m" "[39m(B[m);[?12l[?25h[?25l[A[?12l[?25h[?25l[6;43H[?12l[?25h[?25l7[7;33r8[7dM[1;36r[7;1H[?12l[?25h[?25l[8G[42m[1K [49m(B[m[?12l[?25h[?25l[1K S[?12l[?25h[?25ly[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25lm[?12l[?25h[?25l.[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25lt[?12l[?25h[?25l.[?12l[?25h[?25lp[?12l[?25h[?25lr[?12l[?25h[?25li[34d[K[7;23H[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25ll[?12l[?25h[?25ln[?12l[?25h[?25l([?12l[?25h[?25l"[?12l[?25h[?25lH[?12l[?25h[?25le[?12l[?25h[?25ll[?12l[?25h[?25ll[?12l[?25h[?25lo[?12l[?25h[?25l,[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l[7;28H[31m"Hello, "[39m(B[m[?12l[?25h[?25l)[?12l[?25h[?25l;[?12l[?25h[?25l[8d[?12l[?25h[?25l[9d[?12l[?25h[?25l[10;10H[?12l[?25h[?25l[11;39H[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l)[?12l[?25h[?25l;[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[11;28H"Hello, world![K[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[42m [49m(B[m[K[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25ll[?12l[?25h[?25ln[?12l[?25h[?25l([?12l[?25h[?25l"[?12l[?25h[?25l![?12l[?25h[?25l[31m"!"[39m(B[m[?12l[?25h[?25l"![K[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[42m[1K [49m(B[m [?12l[?25h[?25l[K[?12l[?25h[?25l[11;34r[34;1H
+[1;36r[10;10H[?12l[?25h[?25l[A[?12l[?25h[?25l[9;17H[?12l[?25h[?25lS[?12l[?25h[?25ly[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25lm[?12l[?25h[?25l.[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25lt[?12l[?25h[?25l.[?12l[?25h[?25lp[?12l[?25h[?25lr[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25l([?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25ln[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l([?12l[?25h[?25l[?12l[?25h[?25l([?12l[?25h[?25l[C[?12l[?25h[?25l[8d[?12l[?25h[?25l[9d[?12l[?25h[?25l[10;10H[?12l[?25h[?25l[34d(B[0;7mSave modified buffer?  (Answering "No" will DISCARD changes.)                                                                                [35;1H Y(B[m Yes[K[36d(B[0;7m N(B[m No  [36;16H (B[0;7m^C(B[m Cancel[K[34;63H[?12l[?25h[?25l[35d(B[0;7m^G(B[m Get Help[35;36H(B[0;7mM-D(B[m DOS Format[35;71H(B[0;7mM-A(B[m Append[35;106H(B[0;7mM-B(B[m Backup File[36d(B[0;7m^C(B[m Cancel[17G         [36;36H(B[0;7mM-M(B[m Mac Format[36;71H(B[0;7mM-P(B[m Prepend[36;106H(B[0;7m^T(B[m To Files[34d(B[0;7mFile Name to Write: src/main/java/lab1/Hello.java            (B[m[34;50H[?12l[?25h[?25l[K[1;140H[1;132H(B[0;7m        (B[m[34;62H(B[0;7m[ Wrote 10 lines ](B[m[J[36;141H[?12l[?25h[36;1H[?1049l[23;0;0t[?1l>didiera@linux-07:~/csci241/lab-1-asher-didier$ gradle run --args="your args here"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kbuild
+
+
+[2A[1m<[0;1m-------------> 0% CONFIGURING [19ms][m[37D[1B[1m> root project[m[14D[1B[2A[1m<[0;1m-------------> 0% EXECUTING [119ms][m[0K[36D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1m====[0;39;1m---------> 35% EXECUTING [219ms][m[37D[1B[1m> :distTar[m[0K[10D[1B[2A[1m<[0;32;1m=====[0;39;1m--------> 42% EXECUTING [319ms][m[37D[1B[1m> :distZip[m[10D[1B[2A[1m<[0;32;1m=====[0;39;1m--------> 42% EXECUTING [419ms][m[37D[2B[2A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 921ms
+5 actionable tasks: 4 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> :distZip[m[10D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hdidiera@linux-07:~/csci241/lab-1-asher-didier$ gradle run --args="your args here"
+
+
+[2A[1m<[0;1m-------------> 0% CONFIGURING [22ms][m[37D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [122ms][m[37D[1B[1m> :run[m[0K[6D[1B[2A[0K
+[1m> Task :run[m
+Hello, your args here 
+[32;1mBUILD SUCCESSFUL[0;39m in 636ms
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hdidiera@linux-07:~/csci241/lab-1-asher-didier$ gradle run --args="241"
+
+
+[2A[1m<[0;1m-------------> 0% CONFIGURING [20ms][m[37D[1B[1m> Loading projects[m[18D[1B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [120ms][m[37D[1B[1m> :run[m[0K[6D[1B[2A[0K
+[1m> Task :run[m
+Hello, 241 
+[32;1mBUILD SUCCESSFUL[0;39m in 642ms
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hdidiera@linux-07:~/csci241/lab-1-asher-didier$ git add [K[K[K[K[K[K[K[Knano Hell=[K[K[K[K[Ksrc/main/java/lab1/Hello.java
+[?1049h[22;0;0t[1;36r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[34;63H(B[0;7m[ Reading File ](B[m[34;69H(B[0;7m 10 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                                           src/main/java/lab1/Hello.java                                                     [1;140H(B[m[35d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text  (B[0;7mM-](B[m To Bracket[36d(B[0;7m^X(B[m Exit[36;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text  (B[0;7mM-W(B[m WhereIs Next[34d[3d[39;49m[36mpackage[39m(B[m lab1;[5d[36mpublic[39m(B[m [36mclass[39m(B[m Hello {[6;3H[36mpublic[39m(B[m [36mstatic[39m(B[m [32mvoid[39m(B[m main(String[] args) {[7;9HSystem.out.print([31m"Hello, "[39m(B[m);[8;9H[31mfor[39m(B[m ([32mint[39m(B[m index = 0; index < args.length; index++) {[9;17HSystem.out.print(args[index] + [31m" "[39m(B[m);[10;9H}[11;3H}[12d}[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l[7;9H[?12l[?25h[?25lS[?12l[?25h[?25ly[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25lm[?12l[?25h[?25l.[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25lt[?12l[?25h[?25l.[?12l[?25h[?25lp[?12l[?25h[?25lr[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25l([?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[34d[K[7;30H[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[8d[?12l[?25h[?25le[?12l[?25h[?25lx[?12l[?25h[?25l [?12l[?25h[?25l<[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25lg[?12l[?25h[?25ls[?12l[?25h[?25l.[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25l;[?12l[?25h[?25l[?12l[?25h[?25l[1;132H(B[0;7mModified(B[m[8;48H-; index++) {[8;49H[?12l[?25h[?25l1; index++) {[8;50H[?12l[?25h[?25l[9d[?12l[?25h[?25l[10;10H[?12l[?25h[?25l7[11;34r8[11dM[1;36r[11;1H[?12l[?25h[?25l[8G[42m[1K [49m(B[m[?12l[?25h[?25l[1K S[?12l[?25h[?25ly[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25lm[?12l[?25h[?25l.[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25lt[?12l[?25h[?25l.[?12l[?25h[?25lp[?12l[?25h[?25lr[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25l([?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25lg[?12l[?25h[?25ls[?12l[?25h[?25l[[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25lg[?12l[?25h[?25ls[?12l[?25h[?25l.[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25l][?12l[?25h[?25l)[?12l[?25h[?25l[?12l[?25h[?25l )[?12l[?25h[?25l+)[?12l[?25h[?25l )[?12l[?25h[?25l")[?12l[?25h[?25l1)[?12l[?25h[?25l)[K[?12l[?25h[?25l!)[?12l[?25h[?25l[31m"!"[39m(B[m)[?12l[?25h[?25l)[?12l[?25h[?25l;[?12l[?25h[?25l[34d(B[0;7mSave modified buffer?  (Answering "No" will DISCARD changes.)                                                                                [35;1H Y(B[m Yes[K[36d(B[0;7m N(B[m No  [36;16H (B[0;7m^C(B[m Cancel[K[34;63H[?12l[?25h[?25l[35d(B[0;7m^G(B[m Get Help[35;36H(B[0;7mM-D(B[m DOS Format[35;71H(B[0;7mM-A(B[m Append[35;106H(B[0;7mM-B(B[m Backup File[36d(B[0;7m^C(B[m Cancel[17G         [36;36H(B[0;7mM-M(B[m Mac Format[36;71H(B[0;7mM-P(B[m Prepend[36;106H(B[0;7m^T(B[m To Files[34d(B[0;7mFile Name to Write: src/main/java/lab1/Hello.java            (B[m[34;50H[?12l[?25h[?25l[K[1;140H[1;132H(B[0;7m        (B[m[34;62H(B[0;7m[ Wrote 11 lines ](B[m[J[36;141H[?12l[?25h[36;1H[?1049l[23;0;0t[?1l>didiera@linux-07:~/csci241/lab-1-asher-didier$ gradle build
+
+
+[2A[1m<[0;1m-------------> 0% CONFIGURING [16ms][m[37D[1B[1m> Loading projects[m[18D[1B[2A[1m<[0;1m-------------> 0% EXECUTING [116ms][m[0K[36D[1B[1m> :compileJava[m[0K[14D[1B[2A[1m<[0;32;1m====[0;39;1m---------> 35% EXECUTING [216ms][m[37D[1B[1m> :distTar[m[0K[10D[1B[2A[1m<[0;32;1m=====[0;39;1m--------> 42% EXECUTING [316ms][m[37D[1B[1m> :distZip[m[10D[1B[2A[1m<[0;32;1m=====[0;39;1m--------> 42% EXECUTING [416ms][m[37D[2B[2A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 927ms
+5 actionable tasks: 4 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> :distZip[m[10D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hdidiera@linux-07:~/csci241/lab-1-asher-didier$ gradle run --args="241"
+
+
+[2A[1m<[0;1m-------------> 0% CONFIGURING [13ms][m[37D[1B[1m> Loading projects[m[18D[1B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [113ms][m[37D[1B[1m> :run[m[0K[6D[1B[2A[0K
+[31;1m> Task :run[0;39m[31m FAILED[39m
+Hello, Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+        at lab1.Hello.main(Hello.java:9)
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':run'.
+[33m> [39mProcess 'command '/usr/lib/jvm/java-11-openjdk-amd64/bin/java'' finished with non-zero exit value 1
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 610ms
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hdidiera@linux-07:~/csci241/lab-1-asher-didier$ gradle run --args="241"
+
+
+[2A[1m<[0;1m-------------> 0% INITIALIZING [4ms][m[37D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [104ms][m[37D[1B[1m> :run[m[0K[6D[1B[2A[0K
+[31;1m> Task :run[0;39m[31m FAILED[39m
+Hello, Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+        at lab1.Hello.main(Hello.java:9)
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':run'.
+[33m> [39mProcess 'command '/usr/lib/jvm/java-11-openjdk-amd64/bin/java'' finished with non-zero exit value 1
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 619ms
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hdidiera@linux-07:~/csci241/lab-1-asher-didier$ gradle build
+
+
+[2A[1m<[0;1m-------------> 0% INITIALIZING [18ms][m[38D[1B[1m> Evaluating settings[m[21D[1B[2A[0K
+[1B[0K
+[2A[1m<[0;32;1m=============[0;39;1m> 100% EXECUTING [118ms][m[38D[1B> IDLE[6D[1B[2A[32;1mBUILD SUCCESSFUL[0;39m in 591ms[0K
+5 actionable tasks: 5 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hdidiera@linux-07:~/csci241/lab-1-asher-didier$ gradle run --args="241"
+
+
+[2A[1m<[0;1m-------------> 0% CONFIGURING [14ms][m[37D[1B[1m> root project[m[14D[1B[2A[0K
+[31;1m> Task :run[0;39m[31m FAILED[39m
+Hello, Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+        at lab1.Hello.main(Hello.java:9)
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':run'.
+[33m> [39mProcess 'command '/usr/lib/jvm/java-11-openjdk-amd64/bin/java'' finished with non-zero exit value 1
+[0K
+[0K
+[2A[1m<[0;31;1m=============[0;39;1m> 100% EXECUTING [114ms][m[38D[1B> IDLE[6D[1B[2A[0K
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 604ms
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hdidiera@linux-07:~/csci241/lab-1-asher-didier$ nano src/main/java/lab1/Hello.java"[K
+[?1049h[22;0;0t[1;36r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[34;63H(B[0;7m[ Reading File ](B[m[34;69H(B[0;7m 11 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                                           src/main/java/lab1/Hello.java                                                     [1;140H(B[m[35d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text  (B[0;7mM-](B[m To Bracket[36d(B[0;7m^X(B[m Exit[36;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text  (B[0;7mM-W(B[m WhereIs Next[34d[3d[39;49m[36mpackage[39m(B[m lab1;[5d[36mpublic[39m(B[m [36mclass[39m(B[m Hello {[6;3H[36mpublic[39m(B[m [36mstatic[39m(B[m [32mvoid[39m(B[m main(String[] args) {[7;9HSystem.out.print([31m"Hello, "[39m(B[m);[8;9H[31mfor[39m(B[m ([32mint[39m(B[m index = 0; index < args.length-1; index++) {[9;17HSystem.out.print(args[index] + [31m" "[39m(B[m);[10;9H}[11dSystem.out.print(args[args.length] + [31m"!"[39m(B[m);[12;3H}[13d}[3d[?12l[?25h[?25l[34d[J[36;141H[?12l[?25h[36;1H[?1049l[23;0;0t[?1l>didiera@linux-07:~/csci241/lab-1-asher-didier$ ls
+ build	 build.gradle   gradle	 settings.gradle   src	'touch testfile.txt'   username.txt   writeup.txt
+didiera@linux-07:~/csci241/lab-1-asher-didier$ gradle build
+
+
+[2A[1m<[0;1m-------------> 0% CONFIGURING [12ms][m[37D[1B[1m> Loading projects[m[18D[1B[2A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 588ms
+5 actionable tasks: 5 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hdidiera@linux-07:~/csci241/lab-1-asher-didier$ gradle run
+
+
+[2A[1m<[0;1m-------------> 0% CONFIGURING [18ms][m[37D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [118ms][m[37D[1B[1m> :run[m[0K[6D[1B[2A[0K
+[31;1m> Task :run[0;39m[31m FAILED[39m
+Hello, Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+        at lab1.Hello.main(Hello.java:9)
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':run'.
+[33m> [39mProcess 'command '/usr/lib/jvm/java-11-openjdk-amd64/bin/java'' finished with non-zero exit value 1
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 624ms
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hdidiera@linux-07:~/csci241/lab-1-asher-didier$ nano srec/[K[K[Kc/mia[K[Kain/java/lab1/Hello.java
+[?1049h[22;0;0t[1;36r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[34;63H(B[0;7m[ Reading File ](B[m[34;69H(B[0;7m 11 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                                           src/main/java/lab1/Hello.java                                                     [1;140H(B[m[35d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text  (B[0;7mM-](B[m To Bracket[36d(B[0;7m^X(B[m Exit[36;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text  (B[0;7mM-W(B[m WhereIs Next[34d[3d[39;49m[36mpackage[39m(B[m lab1;[5d[36mpublic[39m(B[m [36mclass[39m(B[m Hello {[6;3H[36mpublic[39m(B[m [36mstatic[39m(B[m [32mvoid[39m(B[m main(String[] args) {[7;9HSystem.out.print([31m"Hello, "[39m(B[m);[8;9H[31mfor[39m(B[m ([32mint[39m(B[m index = 0; index < args.length-1; index++) {[9;17HSystem.out.print(args[index] + [31m" "[39m(B[m);[10;9H}[11dSystem.out.print(args[args.length] + [31m"!"[39m(B[m);[12;3H}[13d}[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l[7;9H[?12l[?25h[?25l[8d[?12l[?25h[?25l[9d[?12l[?25h[?25l[10d[?12l[?25h[?25l[A[?12l[?25h[?25l[9;17H[?12l[?25h[?25lS[?12l[?25h[?25ly[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25lm[?12l[?25h[?25l.[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25lt[?12l[?25h[?25l.[?12l[?25h[?25lp[?12l[?25h[?25lr[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25l[34d[K[9;33H[?12l[?25h[?25l([?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25lg[?12l[?25h[?25ls[?12l[?25h[?25l[[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25l[A[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25l-[?12l[?25h[?25l[1;132H(B[0;7mModified(B[m[8;48H[1P[?12l[?25h[?25l[1P[?12l[?25h[?25lh1; index++) {[8;48H[?12l[?25h[?25l1[?12l[?25h[?25l[1P[?12l[?25h[?25l[9d[?12l[?25h[?25l[10;10H[?12l[?25h[?25l[11;48H[?12l[?25h[?25l[C[?12l[?25h[?25l)[?12l[?25h[?25l;[K[?12l[?25h[?25l"!;[K[?12l[?25h[?25l;[K[?12l[?25h[?25l;[K[?12l[?25h[?25l;[K[?12l[?25h[?25l;[K[?12l[?25h[?25l;[K[?12l[?25h[?25l;[K[?12l[?25h[?25l;[K[?12l[?25h[?25l;[K[?12l[?25h[?25l;[K[?12l[?25h[?25l;[K[?12l[?25h[?25l;[K[?12l[?25h[?25l;[K[?12l[?25h[?25l;[K[?12l[?25h[?25l;[K[?12l[?25h[?25l;[K[?12l[?25h[?25l;[K[?12l[?25h[?25l;[K[?12l[?25h[?25l;[K[?12l[?25h[?25l;[K[?12l[?25h[?25l;[K[?12l[?25h[?25l;[K[?12l[?25h[?25l;[K[?12l[?25h[?25l;[K[?12l[?25h[?25l;[K[?12l[?25h[?25l;[K[?12l[?25h[?25l;[K[?12l[?25h[?25l;[K[?12l[?25h[?25l;[K[?12l[?25h[?25l;[K[?12l[?25h[?25l;[K[?12l[?25h[?25l;[K[?12l[?25h[?25l;[K[?12l[?25h[?25l;[K[?12l[?25h[?25l;[K[?12l[?25h[?25l;[K[?12l[?25h[?25l;[K[?12l[?25h[?25l;[K[?12l[?25h[?25l;[K[?12l[?25h[?25l;[K[?12l[?25h[?25l;[K[?12l[?25h[?25l[11;34r[34;1H
+[1;36r[10;10H;[?12l[?25h[?25l;[K[?12l[?25h[?25l;[K[?12l[?25h[?25l;[?12l[?25h[?25l[K[?12l[?25h[?25l[10;34r[34;1H
+[1;36r[9;53H[?12l[?25h[?25l7[10;34r8[10dM[1;36r[10;1H[?12l[?25h[?25l[8G[42m[1K [49m(B[m[?12l[?25h[?25l[1K }[?12l[?25h[?25l[1;140H[1;132H(B[0;7m        (B[m[34;62H(B[0;7m[ Wrote 10 lines ](B[m[10;10H[?12l[?25h[?25l[34d[J[36;141H[?12l[?25h[36;1H[?1049l[23;0;0t[?1l>didiera@linux-07:~/csci241/lab-1-asher-didier$ gradle bui9;[K[Kld
+
+
+[2A[1m<[0;1m-------------> 0% INITIALIZING [16ms][m[38D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;1m-------------> 0% EXECUTING [117ms][m[0K[36D[1B[1m> :compileJava[m[0K[14D[1B[2A[1m<[0;32;1m====[0;39;1m---------> 35% EXECUTING [217ms][m[37D[1B[1m> :distTar[m[0K[10D[1B[2A[1m<[0;32;1m=====[0;39;1m--------> 42% EXECUTING [317ms][m[37D[1B[1m> :distZip[m[10D[1B[2A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 897ms
+5 actionable tasks: 4 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hdidiera@linux-07:~/csci241/lab-1-asher-didier$ gradle run --args"[K="21[K41"
+
+
+[2A[1m<[0;1m-------------> 0% CONFIGURING [24ms][m[37D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [124ms][m[37D[1B[1m> :run[m[0K[6D[1B[2A[0K
+[1m> Task :run[m
+Hello, 241 
+[32;1mBUILD SUCCESSFUL[0;39m in 637ms
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hdidiera@linux-07:~/csci241/lab-1-asher-didier$ nano src/main/h[Kjava/lab1/Hello.java
+[?1049h[22;0;0t[1;36r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[34;63H(B[0;7m[ Reading File ](B[m[34;69H(B[0;7m 10 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                                           src/main/java/lab1/Hello.java                                                     [1;140H(B[m[35d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text  (B[0;7mM-](B[m To Bracket[36d(B[0;7m^X(B[m Exit[36;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text  (B[0;7mM-W(B[m WhereIs Next[34d[3d[39;49m[36mpackage[39m(B[m lab1;[5d[36mpublic[39m(B[m [36mclass[39m(B[m Hello {[6;3H[36mpublic[39m(B[m [36mstatic[39m(B[m [32mvoid[39m(B[m main(String[] args) {[7;9HSystem.out.print([31m"Hello, "[39m(B[m);[8;9H[31mfor[39m(B[m ([32mint[39m(B[m index = 0; index < args.length; index++) {[9;17HSystem.out.print(args[index] + [31m" "[39m(B[m);[10;9H}[11;3H}[12d}[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l[8d[?12l[?25h[?25l[9d[?12l[?25h[?25l[A[?12l[?25h[?25l[8;9H[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l [?12l[?25h[?25l([?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25lx[?12l[?25h[?25l [?12l[?25h[?25l=[?12l[?25h[?25l [?12l[?25h[?25l[34d[K[8;27H[?12l[?25h[?25l;[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25lx[?12l[?25h[?25l [?12l[?25h[?25l<[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25lg[?12l[?25h[?25ls[?12l[?25h[?25l.[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25l[1;132H(B[0;7mModified(B[m[8;48H-; index++) {[8;49H[?12l[?25h[?25l1; index++) {[8;50H[?12l[?25h[?25l[1;140H[1;132H(B[0;7m        (B[m[34;62H(B[0;7m[ Wrote 10 lines ](B[m[8;50H[?12l[?25h[?25l[34d[J[36;141H[?12l[?25h[36;1H[?1049l[23;0;0t[?1l>didiera@linux-07:~/csci241/lab-1-asher-didier$ gradle bui;ld[K[K[Kld
+
+
+[2A[1m<[0;1m-------------> 0% CONFIGURING [15ms][m[37D[1B[1m> root project[m[14D[1B[2A[1m<[0;1m-------------> 0% EXECUTING [115ms][m[0K[36D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1m=====[0;39;1m--------> 42% EXECUTING [215ms][m[37D[1B[1m> :distZip[m[0K[10D[1B[2A[1m<[0;32;1m=====[0;39;1m--------> 42% EXECUTING [315ms][m[37D[2B[2A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 851ms
+5 actionable tasks: 4 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> :distZip[m[10D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hdidiera@linux-07:~/csci241/lab-1-asher-didier$ gradle run arg[K[K[K--args"[K="241"
+
+
+[2A[1m<[0;1m-------------> 0% CONFIGURING [22ms][m[37D[1B[1m> root project[m[14D[1B[2A[0K
+[1m> Task :run[m[0K
+Hello, 
+[32;1mBUILD SUCCESSFUL[0;39m in 587ms
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hdidiera@linux-07:~/csci241/lab-1-asher-didier$ nano[K[K[K[Kgradle run --args"[K="Test args here"
+
+
+[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [106ms][m[37D[1B[1m> :run[m[6D[1B[2A[0K
+[1m> Task :run[m
+Hello, Test args 
+[32;1mBUILD SUCCESSFUL[0;39m in 641ms
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hdidiera@linux-07:~/csci241/lab-1-asher-didier$ nano src/main/java/labv[K1/Hello.java
+[?1049h[22;0;0t[1;36r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[34;63H(B[0;7m[ Reading File ](B[m[34;69H(B[0;7m 10 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                                           src/main/java/lab1/Hello.java                                                     [1;140H(B[m[35d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text  (B[0;7mM-](B[m To Bracket[36d(B[0;7m^X(B[m Exit[36;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text  (B[0;7mM-W(B[m WhereIs Next[34d[3d[39;49m[36mpackage[39m(B[m lab1;[5d[36mpublic[39m(B[m [36mclass[39m(B[m Hello {[6;3H[36mpublic[39m(B[m [36mstatic[39m(B[m [32mvoid[39m(B[m main(String[] args) {[7;9HSystem.out.print([31m"Hello, "[39m(B[m);[8;9H[31mfor[39m(B[m ([32mint[39m(B[m index = 0; index < args.length-1; index++) {[9;17HSystem.out.print(args[index] + [31m" "[39m(B[m);[10;9H}[11;3H}[12d}[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l[8d[?12l[?25h[?25l[9d[?12l[?25h[?25l[10d[?12l[?25h[?25l[10;9H[?12l[?25h[?25l}[?12l[?25h[?25l[1;132H(B[0;7mModified(B[m[11;33r[11;1HM[1;36r[11;1H[?12l[?25h[?25l[8G[42m[1K [49m(B[m[?12l[?25h[?25l[1K S[?12l[?25h[?25ly[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25lm[?12l[?25h[?25l.[?12l[?25h[?25lp[?12l[?25h[?25l [?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25lt[?12l[?25h[?25l.[?12l[?25h[?25lp[?12l[?25h[?25lr[34d[K[11;22H[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25l([?12l[?25h[?25l"[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25lg[?12l[?25h[?25lr[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25lr[?12l[?25h[?25lg[?12l[?25h[?25ls[?12l[?25h[?25l[[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25lg[?12l[?25h[?25ls[?12l[?25h[?25l.[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25l][?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l +[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l "[?12l[?25h[?25l![?12l[?25h[?25l[31m"!"[39m(B[m[?12l[?25h[?25l)[?12l[?25h[?25l;[?12l[?25h[?25l[1;140H[1;132H(B[0;7m        (B[m[34;62H(B[0;7m[ Wrote 11 lines ](B[m[11;51H[?12l[?25h[?25l[34d[J[36;141H[?12l[?25h[36;1H[?1049l[23;0;0t[?1l>didiera@linux-07:~/csci241/lab-1-asher-didier$ gradle build
+
+
+[2A[1m<[0;1m-------------> 0% CONFIGURING [22ms][m[37D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1m==[0;39;1m-----------> 21% EXECUTING [122ms][m[37D[1B> IDLE[0K[6D[1B[2A[1m<[0;32;1m=====[0;39;1m--------> 42% EXECUTING [222ms][m[37D[1B[1m> :distZip[m[10D[1B[2A[1m<[0;32;1m=====[0;39;1m--------> 42% EXECUTING [322ms][m[37D[2B[2A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 829ms
+5 actionable tasks: 4 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> :distZip[m[10D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hdidiera@linux-07:~/csci241/lab-1-asher-didier$ gradle run --args="241"
+
+
+[2A[1m<[0;1m-------------> 0% CONFIGURING [16ms][m[37D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [116ms][m[37D[1B[1m> :run[m[0K[6D[1B[2A[0K
+[31;1m> Task :run[0;39m[31m FAILED[39m
+Hello, Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+        at lab1.Hello.main(Hello.java:9)
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':run'.
+[33m> [39mProcess 'command '/usr/lib/jvm/java-11-openjdk-amd64/bin/java'' finished with non-zero exit value 1
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 616ms
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hdidiera@linux-07:~/csci241/lab-1-asher-didier$ nano src/m,ain[K[K[K[K[Kmain/java/lab1/Hello.java
+[?1049h[22;0;0t[1;36r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[34;63H(B[0;7m[ Reading File ](B[m[34;69H(B[0;7m 11 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                                           src/main/java/lab1/Hello.java                                                     [1;140H(B[m[35d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text  (B[0;7mM-](B[m To Bracket[36d(B[0;7m^X(B[m Exit[36;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text  (B[0;7mM-W(B[m WhereIs Next[34d[3d[39;49m[36mpackage[39m(B[m lab1;[5d[36mpublic[39m(B[m [36mclass[39m(B[m Hello {[6;3H[36mpublic[39m(B[m [36mstatic[39m(B[m [32mvoid[39m(B[m main(String[] args) {[7;9HSystem.out.print([31m"Hello, "[39m(B[m);[8;9H[31mfor[39m(B[m ([32mint[39m(B[m index = 0; index < args.length-1; index++) {[9;17HSystem.out.print(args[index] + [31m" "[39m(B[m);[10;9H}[11dSystem.out.print(args[args.length] + [31m"!"[39m(B[m);[12;3H}[13d}[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l[8d[?12l[?25h[?25l[9d[?12l[?25h[?25l[10d[?12l[?25h[?25l[11d[?12l[?25h[?25l[11;9H[?12l[?25h[?25lS[?12l[?25h[?25ly[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25lm[?12l[?25h[?25l.[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25lt[?12l[?25h[?25l.[?12l[?25h[?25lp[?12l[?25h[?25lr[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25l[34d[K[11;26H[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25lg[?12l[?25h[?25ls[?12l[?25h[?25l[[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25lg[?12l[?25h[?25ls[?12l[?25h[?25l.[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25l[10;10H[?12l[?25h[?25l[9;42H[?12l[?25h[?25l[A[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25l-[?12l[?25h[?25l[1;132H(B[0;7mModified(B[m[8;49H21; index++) {[8;50H[?12l[?25h[?25l1[?12l[?25h[?25l[1P[?12l[?25h[?25l[9d[?12l[?25h[?25l[10;10H[?12l[?25h[?25l[11;50H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25lh[?12l[?25h[?25l-] + [31m"!"[39m(B[m);[11;43H[?12l[?25h[?25l0] + [31m"!"[39m(B[m);[11;44H[?12l[?25h[?25l1] + [31m"!"[39m(B[m);[11;45H[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l1] + [31m"!"[39m(B[m);[11;44H[?12l[?25h[?25l[1;140H[1;132H(B[0;7m        (B[m[34;62H(B[0;7m[ Wrote 11 lines ](B[m[11;44H[?12l[?25h[?25l[34d[J[36;141H[?12l[?25h[36;1H[?1049l[23;0;0t[?1l>didiera@linux-07:~/csci241/lab-1-asher-didier$ grab[Kdle bui;ld[K[K[Kld
+
+
+[2A[1m<[0;1m-------------> 0% CONFIGURING [14ms][m[37D[1B[1m> root project[m[14D[1B[2A[1m<[0;1m-------------> 0% EXECUTING [114ms][m[0K[36D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1m=====[0;39;1m--------> 42% EXECUTING [214ms][m[37D[1B[1m> :distZip[m[0K[10D[1B[2A[1m<[0;32;1m=====[0;39;1m--------> 42% EXECUTING [314ms][m[37D[2B[2A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 863ms
+5 actionable tasks: 4 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> :distZip[m[10D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hdidiera@linux-07:~/csci241/lab-1-asher-didier$ gradle run [K[K[K[Krun --args="241"
+
+
+[2A[1m<[0;1m-------------> 0% INITIALIZING [8ms][m[37D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [108ms][m[37D[1B[1m> :run[m[0K[6D[1B[2A[0K
+[1m> Task :run[m
+Hello, 241!
+[32;1mBUILD SUCCESSFUL[0;39m in 631ms
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hdidiera@linux-07:~/csci241/lab-1-asher-didier$ gradle run --args"[K="test args here"
+
+
+[2A[1m<[0;1m-------------> 0% CONFIGURING [18ms][m[37D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [118ms][m[37D[1B[1m> :run[m[0K[6D[1B[2A[0K
+[1m> Task :run[m
+Hello, test here!
+[32;1mBUILD SUCCESSFUL[0;39m in 633ms
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hdidiera@linux-07:~/csci241/lab-1-asher-didier$ nano src/main/java/lab1/Hello.java
+[?1049h[22;0;0t[1;36r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[34;63H(B[0;7m[ Reading File ](B[m[34;69H(B[0;7m 11 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                                           src/main/java/lab1/Hello.java                                                     [1;140H(B[m[35d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text  (B[0;7mM-](B[m To Bracket[36d(B[0;7m^X(B[m Exit[36;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text  (B[0;7mM-W(B[m WhereIs Next[34d[3d[39;49m[36mpackage[39m(B[m lab1;[5d[36mpublic[39m(B[m [36mclass[39m(B[m Hello {[6;3H[36mpublic[39m(B[m [36mstatic[39m(B[m [32mvoid[39m(B[m main(String[] args) {[7;9HSystem.out.print([31m"Hello, "[39m(B[m);[8;9H[31mfor[39m(B[m ([32mint[39m(B[m index = 0; index < args.length-2; index++) {[9;17HSystem.out.print(args[index] + [31m" "[39m(B[m);[10;9H}[11dSystem.out.print(args[args.length-1] + [31m"!"[39m(B[m);[12;3H}[13d}[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l[8d[?12l[?25h[?25l[9d[?12l[?25h[?25l[10d[?12l[?25h[?25l[11d[?12l[?25h[?25l[11;9H[?12l[?25h[?25lS[?12l[?25h[?25ly[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25lm[?12l[?25h[?25l.[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25lt[?12l[?25h[?25l.[?12l[?25h[?25lp[?12l[?25h[?25lr[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25l[34d[K[11;26H[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25lg[?12l[?25h[?25ls[?12l[?25h[?25l[[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25lg[?12l[?25h[?25ls[?12l[?25h[?25l.[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25l[10;10H[?12l[?25h[?25l[9;38H[?12l[?25h[?25l[A[?12l[?25h[?25lr[?12l[?25h[?25lg[?12l[?25h[?25ls[?12l[?25h[?25l.[?12l[?25h[?25ll[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25l-[?12l[?25h[?25l[1;132H(B[0;7mModified(B[m[8;49H12; index++) {[8;50H[?12l[?25h[?25l2[?12l[?25h[?25l[1P[?12l[?25h[?25l[1;140H[1;132H(B[0;7m        (B[m[34;62H(B[0;7m[ Wrote 11 lines ](B[m[8;50H[?12l[?25h[?25l[34d[J[36;141H[?12l[?25h[36;1H[?1049l[23;0;0t[?1l>didiera@linux-07:~/csci241/lab-1-asher-didier$ gradle build
+
+
+[2A[1m<[0;1m-------------> 0% CONFIGURING [21ms][m[37D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1m==[0;39;1m-----------> 21% EXECUTING [121ms][m[37D[1B[1m> :jar[m[0K[6D[1B[2A[1m<[0;32;1m=====[0;39;1m--------> 42% EXECUTING [221ms][m[37D[1B[1m> :distZip[m[10D[1B[2A[1m<[0;32;1m=====[0;39;1m--------> 42% EXECUTING [321ms][m[37D[2B[2A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 837ms
+5 actionable tasks: 4 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> :distZip[m[10D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hdidiera@linux-07:~/csci241/lab-1-asher-didier$ gradle run --args"241"
+
+
+[2A[1m<[0;1m-------------> 0% CONFIGURING [23ms][m[37D[1B[1m> root project[m[14D[1B[2A[0K
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Problem configuring task :run from command line.
+[33m> [39mUnknown command-line option '--args241'.
+
+* Try:
+Run [1mgradle help --task :run[m to get task usage details. Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 509ms
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> root project[m[14D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hdidiera@linux-07:~/csci241/lab-1-asher-didier$ gradle run --args="241"
+
+
+[2A[1m<[0;1m-------------> 0% CONFIGURING [22ms][m[37D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [122ms][m[37D[1B[1m> :run[m[0K[6D[1B[2A[0K
+[1m> Task :run[m
+Hello, 241!
+[32;1mBUILD SUCCESSFUL[0;39m in 632ms
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hdidiera@linux-07:~/csci241/lab-1-asher-didier$ gradle run --args"[K="test args here"
+
+
+[2A[1m<[0;1m-------------> 0% CONFIGURING [23ms][m[37D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [123ms][m[37D[1B[1m> :run[m[0K[6D[1B[2A[0K
+[1m> Task :run[m
+Hello, test args here!
+[32;1mBUILD SUCCESSFUL[0;39m in 632ms
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25hdidiera@linux-07:~/csci241/lab-1-asher-didier$ git add src/main/java/lab1/Hello.java
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git commit -m "Hello now prints command line args"[K[Ks[K"
+[master 22a3bed] Hello now prints command line arg
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+didiera@linux-07:~/csci241/lab-1-asher-didier$ git push
+Username for 'https://github.com': asher-didier
+Password for 'https://asher-didier@github.com': 
+Counting objects: 10, done.
+Delta compression using up to 8 threads.
+Compressing objects:  16% (1/6)   Compressing objects:  33% (2/6)   Compressing objects:  50% (3/6)   Compressing objects:  66% (4/6)   Compressing objects:  83% (5/6)   Compressing objects: 100% (6/6)   Compressing objects: 100% (6/6), done.
+Writing objects:  10% (1/10)   Writing objects:  20% (2/10)   Writing objects:  30% (3/10)   Writing objects:  40% (4/10)   Writing objects:  50% (5/10)   Writing objects:  60% (6/10)   Writing objects:  70% (7/10)   Writing objects:  80% (8/10)   Writing objects:  90% (9/10)   Writing objects: 100% (10/10)   Writing objects: 100% (10/10), 903 bytes | 301.00 KiB/s, done.
+Total 10 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 1 local object.[K
+To https://github.com/csci241-20s/lab-1-asher-didier
+   a674d9a..22a3bed  master -> master
+didiera@linux-07:~/csci241/lab-1-asher-didier$ exit
+exit
+
+Script done on 2020-04-12 21:57:57-0700
